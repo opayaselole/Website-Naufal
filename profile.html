@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Biodata - Adzkia Naufal Putra</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="header">
+
+<img src="opay.jpeg">
+
+<div>
+
+<div class="name">ADZKIA NAUFAL PUTRA</div>
+<div class="sub">TKJ SMKN 11 BANDUNG</div>
+
+<div class="info">
+<p>📞 +62 877-9265-6100</p>
+<p>✉ adzkianp5@gmail.com</p>
+<p>📍 Jl. Rajawali Timur, Bandung, Jawa Barat</p>
+<p>Bandung, 22/02/2008</p>
+</div>
+
+</div>
+</div>
+
+<div class="section">
+<h3>PROFIL</h3>
+<p>
+Siswa SMK jurusan Teknik Komputer dan Jaringan (TKJ). Memiliki kemampuan dasar dalam bidang jaringan komputer, instalasi sistem operasi Linux, serta troubleshooting perangkat komputer. Terbiasa melakukan praktik instalasi jaringan, konfigurasi dasar perangkat jaringan, serta memahami dasar pengelolaan sistem komputer. Memiliki semangat belajar tinggi, disiplin, dan mampu bekerja secara mandiri maupun dalam tim.
+</p>
+</div>
+
+<div class="section">
+<h3>RIWAYAT PENDIDIKAN</h3>
+
+<table>
+<tr>
+<th>Pendidikan</th>
+<th>Nama Sekolah</th>
+<th>Tahun</th>
+</tr>
+
+<tr>
+<td>SD</td>
+<td>MI Baitur Rohim</td>
+<td>2014 - 2020</td>
+</tr>
+
+<tr>
+<td>SMP</td>
+<td>SMP Negeri 23 Bandung</td>
+<td>2020 - 2023</td>
+</tr>
+
+<tr>
+<td>SMK</td>
+<td>SMK Negeri 11 Bandung</td>
+<td>2023 - 2026</td>
+</tr>
+
+</table>
+
+</div>
+
+<div class="section">
+<h3>KEMAMPUAN</h3>
+<ul>
+<li>Konfigurasi jaringan</li>
+<li>Instalasi OS</li>
+<li>Troubleshooting jaringan dan komputer</li>
+<li>Konfigurasi dasar Mikrotik</li>
+<li>Pengkabelan jaringan</li>
+<li>Dasar server</li>
+</ul>
+</div>
+
+<div class="section">
+<h3>PENGALAMAN PRAKTIK</h3>
+<p><b>Praktik Jaringan Laboratorium Sekolah</b></p>
+<ul>
+<li>Melakukan instalasi dan konfigurasi jaringan LAN</li>
+<li>Mengatur IP Address dan koneksi antar perangkat</li>
+<li>Instalasi sistem operasi Linux (Ubuntu dan Debian)</li>
+<li>Melakukan troubleshooting jaringan dan komputer</li>
+<li>Perawatan perangkat jaringan (kabel, switch, router)</li>
+</ul>
+</div>
+
+<div class="section">
+<h3>KEAHLIAN PENDUKUNG (SOFT SKILL)</h3>
+<ul>
+<li>Problem solving</li>
+<li>Kerja tim</li>
+<li>Manajemen waktu</li>
+<li>Komunikasi yang baik</li>
+<li>Cepat beradaptasi</li>
+<li>Disiplin dan bertanggung jawab</li>
+</ul>
+</div>
+
+<div class="section">
+<h3>KONTAK</h3>
+<ul>
+<li>WhatsApp: 087792656100</li>
+<li>
+Instagram: 
+<a href="https://www.instagram.com/_nflzkia?igsh=MTBna3FvdTJtYmVjeg==" target="_blank">
+@nflzkia
+</a>
+</li>
+<li>Email: adzkianp5@gmail.com</li>
+</ul>
+</div>
+
+<div class="section">
+<h3>HUBUNGI SAYA</h3>
+
+<form id="myForm">
+
+<label>Nama</label>
+<input type="text" id="name" placeholder="Tulis nama anda">
+
+<label>Email</label>
+<input type="email" id="email" placeholder="Tulis email anda">
+
+<label>Pesan</label>
+<textarea rows="4" placeholder="Tulis pesan disini"></textarea>
+
+<button type="submit">Submit</button>
+
+</form>
+
+</div>
+
+</div>
+
+<script>
+
+document.getElementById("myForm").addEventListener("submit", function(e){
+
+const name = document.getElementById("name").value.trim();
+const email = document.getElementById("email").value.trim();
+
+if(name === "" || email === ""){
+e.preventDefault();
+alert("Peringatan: Nama dan Email harus diisi!");
+}
+
+});
+
+</script>
+
+</body>
+</html>
